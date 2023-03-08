@@ -48,6 +48,6 @@ table = slide.shapes.add_table(num_rows, num_cols, left, top, width, height).tab
 for i, row in enumerate(ws.iter_rows(values_only=True)):
     for j, cell_value in enumerate(row):
         table.cell(i, j).text = str(cell_value)
-# xd
+# xdewds
 # save
 prs.save('D:\Dokumentumok\Ibolya\mátrix.pptx')
